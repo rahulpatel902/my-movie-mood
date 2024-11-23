@@ -4,13 +4,13 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyC3rjErlVpu0JHuBg2pU_z89CLTt0sxjT0",
-    authDomain: "moviemood-f7456.firebaseapp.com",
-    projectId: "moviemood-f7456",
-    storageBucket: "moviemood-f7456.firebasestorage.app",
-    messagingSenderId: "352206096533",
-    appId: "1:352206096533:web:3d97be731629a23480f39c",
-    measurementId: "G-T4H5Y7GR6H"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID,
+    measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
