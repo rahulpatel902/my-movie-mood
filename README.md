@@ -1,4 +1,4 @@
-# Cinematic Mood Movies 🎬
+# My Movie Mood  🎬
 
 A web application that recommends movies based on your mood using TMDB API and Firebase authentication.
 
