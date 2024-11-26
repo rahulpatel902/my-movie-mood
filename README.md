@@ -7,14 +7,13 @@ A web application that recommends movies based on your mood using TMDB API and F
 
 Before running this project, make sure you have:
 
-- Node.js (Latest LTS version)
-- npm (comes with Node.js)
+- Node.js (Latest LTS version) Installed
 
-## Installation
+## Installation: Open VSCode Terminal
 
 1. Clone the repository
 ```bash
-git clone [your-repository-url]
+git clone [repository-url]
 cd [repository-name]
 ```
 
