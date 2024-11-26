@@ -10,13 +10,13 @@ Before running this project, make sure you have:
 
 ## Installation: 
  
-1.1 Open VSCode Terminal and Cclone the repository
+0. Open VSCode Terminal and Cclone the repository
 ```bash
 git clone [repository-url]
 cd [repository-name]
 ```
 
-1.2 Or Download it and Open using VSCode
+1. Or Download it and Open using VSCode
 
 2. Install dependencies
 ```bash
