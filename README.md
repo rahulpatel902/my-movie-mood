@@ -1,4 +1,4 @@
-# Cinematic Mood Movies 🎬
+# My Mood Movies 🎬
 
 A web application that recommends movies based on your mood using TMDB API and Firebase authentication.
 
@@ -87,9 +87,7 @@ project-root/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
