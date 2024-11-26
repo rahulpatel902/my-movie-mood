@@ -1,5 +1,5 @@
 # My Movie Mood  🎬
->>>>>>> 9f86d8c88af7cab8fe360681398cc90089188607
+---------------------
 
 A web application that recommends movies based on your mood using TMDB API and Firebase authentication.
 
