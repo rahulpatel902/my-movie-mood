@@ -16,7 +16,7 @@ git clone [repository-url]
 cd [repository-name]
 ```
 
-1. Or Download it and Open using VSCode
+1. Or Download the repo and Open using VSCode
 
 2. Install dependencies
 ```bash
