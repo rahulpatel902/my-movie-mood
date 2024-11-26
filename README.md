@@ -1,4 +1,5 @@
-# My Mood Movies 🎬
+# My Movie Mood  🎬
+>>>>>>> 9f86d8c88af7cab8fe360681398cc90089188607
 
 A web application that recommends movies based on your mood using TMDB API and Firebase authentication.
 
@@ -8,8 +9,6 @@ Before running this project, make sure you have:
 
 - Node.js (Latest LTS version)
 - npm (comes with Node.js)
-- A Firebase account
-- TMDB API key
 
 ## Installation
 
