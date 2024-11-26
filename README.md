@@ -1,8 +1,7 @@
 # My Movie Mood  🎬
 ---------------------
 
-A web application that recommends movies based on your mood using TMDB API and Firebase authentication.
-
+A web application that recommends movies based on your mood.
 ## Prerequisites
 
 Before running this project, make sure you have:
