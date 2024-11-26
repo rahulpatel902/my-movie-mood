@@ -8,8 +8,6 @@ Before running this project, make sure you have:
 
 - Node.js (Latest LTS version)
 - npm (comes with Node.js)
-- A Firebase account
-- TMDB API key
 
 ## Installation
 
