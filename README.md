@@ -9,13 +9,14 @@ Before running this project, make sure you have:
 - Node.js (Latest LTS version) Installed
 
 ## Installation: 
-
-0. Open VSCode Terminal
-1. Clone the repository
+ 
+1.1 Open VSCode Terminal and Cclone the repository
 ```bash
 git clone [repository-url]
 cd [repository-name]
 ```
+
+1.2 Or Download it and Open using VSCode
 
 2. Install dependencies
 ```bash
