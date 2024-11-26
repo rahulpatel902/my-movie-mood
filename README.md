@@ -10,7 +10,7 @@ Before running this project, make sure you have:
 
 ## Installation: 
  
-0. Open VSCode Terminal and Cclone the repository
+0. Open VSCode Terminal and clone the repository
 ```bash
 git clone [repository-url]
 cd [repository-name]
