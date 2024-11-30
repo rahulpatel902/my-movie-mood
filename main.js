@@ -1,3 +1,14 @@
+/**
+ * Main application entry point that handles mood-based movie recommendations
+ * @module main
+ * 
+ * Dependencies:
+ * - firebase.js: Handles authentication
+ * - config.js: Contains API configuration and mood category mappings
+ * - api.js: Handles all TMDB API interactions
+ * - ui.js: Manages UI updates and loading states
+ */
+
 import { auth } from './src/firebase.js';
 import { signOut } from 'firebase/auth';
 import { moodCategories } from './src/config.js';
