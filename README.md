@@ -6,17 +6,15 @@ A web application that recommends movies based on your mood.
 
 Before running this project, make sure you have:
 
-- Node.js (Latest LTS version) Installed
+- Node.js Installed
 
 ## Installation: 
  
-0. Open VSCode Terminal and clone the repository
+1. Clone the repository
 ```bash
 git clone [repository-url]
 cd [repository-name]
 ```
-
-1. Or Download the repo and Open using VSCode
 
 2. Install dependencies
 ```bash
