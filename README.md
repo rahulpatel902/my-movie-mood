@@ -116,7 +116,8 @@ Required environment variables (see `.env.example`):
 - [Firebase](https://firebase.google.com/) for authentication services
 - [Vite](https://vitejs.dev/) for the excellent build tool
 - [Font Awesome](https://fontawesome.com/) for icons
+- [Flaticon](https://www.flaticon.com/) for the favicon
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details
