@@ -1,19 +1,29 @@
-# My Movie Mood  🎬
----------------------
+# My Movie Mood 🎬
 
-A web application that recommends movies based on your mood.
-## Prerequisites
+A modern web application that recommends movies based on your emotional state, powered by TMDB API and Firebase authentication.
 
-Before running this project, make sure you have:
+## 🌟 Features
 
-- Node.js Installed
+- 🎭 **Mood-Based Recommendations**: Get personalized movie suggestions based on your current mood
+- 🔍 **Advanced Filtering**: Filter by year range and movie format (Animation/Live Action)
+- 🔐 **Secure Authentication**: User authentication powered by Firebase
+- 💾 **Smart Caching**: Local caching system for improved performance
+- 📱 **Responsive Design**: Beautiful glass-morphism UI that works on all devices
+- 🎬 **Rich Movie Data**: Detailed movie information from TMDB API
+- 🚫 **Content Filtering**: Built-in filtering for appropriate content
 
-## Installation: 
- 
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- npm (comes with Node.js)
+
+### Installation
+
 1. Clone the repository
 ```bash
-git clone [repository-url]
-cd [repository-name]
+git clone https://github.com/rahulpatel902/my-movie-mood.git
+cd my-movie-mood
 ```
 
 2. Install dependencies
@@ -21,62 +31,62 @@ cd [repository-name]
 npm install
 ```
 
-3. Create a `.env` file in the root directory with the following variables:
-```env
-VITE_FIREBASE_API_KEY=your_firebase_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
-VITE_FIREBASE_APP_ID=your_firebase_app_id
-VITE_TMDB_API_KEY=your_tmdb_api_key
-```
+3. Set up environment variables
+   - Copy `.env.example` to `.env`
+   - Fill in your Firebase and TMDB API credentials
 
-## Running the Project
+### Development
 
-1. For development:
 ```bash
 npm run dev
 ```
+Visit `http://localhost:5173` in your browser
 
-2. For production build:
+### Production Build
 ```bash
 npm run build
 npm run preview
 ```
 
-## Features
-
-- 🔐 User Authentication (Sign up, Login, Password Reset)
-- 🎭 Mood-based movie recommendations
-- 🎬 Movie details including ratings, duration, and genres
-- 📱 Responsive design
-- 🎨 Modern glass-morphism UI
-
-## Tech Stack
-
-- Frontend: HTML5, CSS3, JavaScript
-- Build Tool: Vite
-- Authentication: Firebase
-- Movie Data: TMDB API
-- Hosting: Netlify
-
-## Project Structure
+## 🏗️ Project Structure
 
 ```
 project-root/
-├── src/
-│   └── firebase.js
-├── auth.html
-├── auth.js
-├── auth.css
-├── index.html
-├── main.js
-├── style.css
-└── vite.config.js
+├── src/                    # Source files
+│   ├── api.js             # TMDB API integration
+│   ├── authCheck.js       # Authentication utilities
+│   ├── config.js          # Configuration and constants
+│   ├── firebase.js        # Firebase initialization
+│   ├── ui.js             # UI update functions
+│   └── utils.js          # Helper utilities
+├── public/                # Static assets
+├── documentation/         # Project documentation
+├── auth.{html,css,js}    # Authentication pages
+├── index.html            # Main application page
+├── main.js              # Application entry point
+├── style.css            # Global styles
+├── vite.config.js       # Vite configuration
+└── netlify.toml         # Deployment configuration
 ```
 
-## Contributing
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: Vanilla JavaScript with modern ES6+ features
+- **Build Tool**: Vite v5.4
+- **Authentication**: Firebase v10.14
+- **API Integration**: TMDB API v3
+- **Styling**: Custom CSS with Glass-morphism design
+- **Deployment**: Netlify
+
+## 🔒 Security Features
+
+- Environment variables for sensitive data
+- Secure authentication flow
+- API key protection
+- Content filtering
+- Error handling and retry mechanisms
+
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -84,10 +94,19 @@ project-root/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## 📝 Environment Variables
 
+Required environment variables (see `.env.example`):
+- `VITE_FIREBASE_*`: Firebase configuration
+- `VITE_TMDB_API_KEY`: TMDB API key
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
-- TMDB API for movie data
-- Firebase for authentication
-- Vite for build tooling
+- [TMDB](https://www.themoviedb.org/) for the comprehensive movie database
+- [Firebase](https://firebase.google.com/) for authentication services
+- [Vite](https://vitejs.dev/) for the excellent build tool
+- [Font Awesome](https://fontawesome.com/) for icons
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details
