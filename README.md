@@ -74,8 +74,7 @@ project-root/
 ├── index.html            # Main application page
 ├── main.js              # Application entry point
 ├── style.css            # Global styles
-├── vite.config.js       # Vite configuration
-└── netlify.toml         # Deployment configuration
+└── vite.config.js       # Vite configuration
 ```
 
 ## 🛠️ Tech Stack
@@ -85,7 +84,6 @@ project-root/
 - **Authentication**: Firebase v10.14
 - **API Integration**: TMDB API v3
 - **Styling**: Custom CSS with Glass-morphism design
-- **Deployment**: Netlify
 
 ## 🔒 Security Features
 
