@@ -1,4 +1,8 @@
-# My Movie Mood 🎬
+<div align="center">
+  <img src="public/favicon.png" alt="My Movie Mood Logo" width="100" height="100">
+</div>
+
+# My Movie Mood 
 
 A modern web application that recommends movies based on your emotional state, powered by TMDB API and Firebase authentication.
 
@@ -15,18 +19,21 @@ A modern web application that recommends movies based on your emotional state, p
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js (v18 or higher recommended)
 - npm (comes with Node.js)
 
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone https://github.com/rahulpatel902/my-movie-mood.git
 cd my-movie-mood
 ```
 
 2. Install dependencies
+
 ```bash
 npm install
 ```
@@ -40,9 +47,11 @@ npm install
 ```bash
 npm run dev
 ```
+
 Visit `http://localhost:5173` in your browser
 
 ### Production Build
+
 ```bash
 npm run build
 npm run preview
@@ -97,6 +106,7 @@ project-root/
 ## 📝 Environment Variables
 
 Required environment variables (see `.env.example`):
+
 - `VITE_FIREBASE_*`: Firebase configuration
 - `VITE_TMDB_API_KEY`: TMDB API key
 
