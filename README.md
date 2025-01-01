@@ -103,10 +103,18 @@ project-root/
 
 ## 📝 Environment Variables
 
-Required environment variables (see `.env.example`):
+This project requires the following environment variables:
 
-- `VITE_FIREBASE_*`: Firebase configuration
-- `VITE_TMDB_API_KEY`: TMDB API key
+- `VITE_FIREBASE_API_KEY`: Firebase API key
+- `VITE_FIREBASE_AUTH_DOMAIN`: Firebase auth domain
+- `VITE_FIREBASE_PROJECT_ID`: Firebase project ID
+- `VITE_FIREBASE_STORAGE_BUCKET`: Firebase storage bucket
+- `VITE_FIREBASE_MESSAGING_SENDER_ID`: Firebase messaging sender ID
+- `VITE_FIREBASE_APP_ID`: Firebase app ID
+- `VITE_FIREBASE_MEASUREMENT_ID`: Firebase measurement ID
+- `VITE_TMDB_API_KEY`: TMDB API key for movie data
+
+Make sure to set these in your Netlify environment variables for deployment.
 
 ## 🙏 Acknowledgments
 
