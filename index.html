@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinematic Mood Movies</title>
+    <title>My Movie Mood</title>
     <!-- Favicon from Flaticon.com -->
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="preconnect" href="https://api.themoviedb.org">
@@ -15,12 +15,21 @@
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
 </head>
 <body>
-    <div class="user-auth">
-        <span id="userName"></span>
-        <button id="logoutBtn" class="glass-select">
-            <i class="fas fa-sign-out-alt"></i> Logout
-        </button>
-    </div>
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="/favicon.png" alt="Logo" class="nav-logo">
+            <span class="nav-brand">My Movie Mood</span>
+        </div>
+        <div class="nav-right">
+            <span id="userName"></span>
+            <a href="https://github.com/rahulpatel902/my-movie-mood" target="_blank" rel="noopener noreferrer" class="github-corner">
+                <i class="fab fa-github"></i>
+            </a>
+            <button id="logoutBtn">
+                <i class="fas fa-sign-out-alt"></i>
+            </button>
+        </div>
+    </nav>
 
     <div class="container">
         <h1>Discover Your Movie Mood</h1>
@@ -79,5 +88,6 @@
     </div>
     <script type="module" src="src/authCheck.js"></script>
     <script type="module" src="main.js"></script>
+    <script src="src/navbar.js"></script>
 </body>
 </html>

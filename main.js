@@ -49,7 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // Update UI for logged in user
             const userNameElement = document.getElementById('userName');
             if (userNameElement) {
-                userNameElement.textContent = user.displayName || user.email;
+                const displayName = user.displayName || user.email.split('@')[0];
+                userNameElement.textContent = displayName;
             }
         } else if (!window.location.pathname.includes('auth.html')) {
             // Redirect to auth page if not authenticated
