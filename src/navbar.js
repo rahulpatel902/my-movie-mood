@@ -1,8 +1,8 @@
 // Handle navbar scroll effect
 document.addEventListener('DOMContentLoaded', () => {
     const navbar = document.querySelector('.navbar');
-    const scrollThreshold = 50; // Adjust this value to change when the background appears
-
+    const scrollThreshold = 10; // Lower threshold for mobile
+    
     function handleScroll() {
         if (window.scrollY > scrollThreshold) {
             navbar.classList.add('scrolled');
@@ -14,6 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial check
     handleScroll();
 
-    // Add scroll event listener
-    window.addEventListener('scroll', handleScroll);
+    // Add scroll event listener with passive option for better mobile performance
+    window.addEventListener('scroll', handleScroll, { passive: true });
 });
