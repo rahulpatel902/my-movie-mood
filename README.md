@@ -117,10 +117,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<div align="center">
-  <p>Made with ❤️ by Rahul Patel</p>
-  <p>
-    <a href="https://github.com/rahulpatel902">GitHub</a> •
-    <a href="https://linkedin.com/in/rahulpatel902">LinkedIn</a>
-  </p>
-</div>
