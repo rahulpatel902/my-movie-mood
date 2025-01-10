@@ -88,12 +88,6 @@ Before you begin, ensure you have:
 - **State Management**: React Context/Redux
 - **Styling**: TailwindCSS, SCSS
 
-## 📱 Screenshots
-
-<div align="center">
-  <img src="public/screenshots/home.png" alt="Home Screen" width="400">
-  <img src="public/screenshots/mood.png" alt="Mood Selection" width="400">
-</div>
 
 ## 🤝 Contributing
 
