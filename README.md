@@ -25,7 +25,7 @@ A modern web application that recommends movies based on your emotional state, p
 - npm (comes with Node.js)
 
 ### Installation
-
+ 
 1. Clone the repository
 
 ```bash
