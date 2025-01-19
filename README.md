@@ -22,7 +22,6 @@ A modern web application that recommends movies based on your emotional state, p
 ### Prerequisites
 
 - Node.js (v18 or higher recommended)
-- npm (comes with Node.js)
 
 ### Installation
  
