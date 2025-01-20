@@ -18,7 +18,7 @@ A modern web application that recommends movies based on your emotional state, p
 - 🚫 **Content Filtering**: Built-in filtering for appropriate content
 
 ## 🚀 Quick Start
-
+ 
 ### Prerequisites
 
 - Node.js (v18 or higher recommended)
