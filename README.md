@@ -17,7 +17,7 @@ A modern web application that recommends movies based on your emotional state, p
 - 🎬 **Rich Movie Data**: Detailed movie information from TMDB API
 - 🚫 **Content Filtering**: Built-in filtering for appropriate content
 
-## 🚀 Quick Start
+## 🚀 Quick Start 
  
 ### Prerequisites
 
