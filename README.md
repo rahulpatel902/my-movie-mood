@@ -9,7 +9,7 @@ A modern web application that recommends movies based on your emotional state, p
   
 ## 🌟 Features     
  
-- 🎭 **Mood-Based Recommendations**: Get personalized movie suggestions based on your current mood
+- 🎭 **Mood-Based Recommendations**: Get personalized movie suggestions based on your current mood 
 - 🔍 **Advanced Filtering**: Filter by year range and movie format (Animation/Live Action)
 - 🔐 **Secure Authentication**: User authentication powered by Firebase
 - 💾 **Smart Caching**: Local caching system for improved performance
