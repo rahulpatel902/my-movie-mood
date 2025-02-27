@@ -6,7 +6,7 @@
 # My Movie Mood   
  
 A modern web application that recommends movies based on your emotional state, powered by TMDB API and Firebase authentication.
-  
+   
 ## 🌟 Features     
  
 - 🎭 **Mood-Based Recommendations**: Get personalized movie suggestions based on your current mood 
