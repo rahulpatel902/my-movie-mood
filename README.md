@@ -2,7 +2,7 @@
 <div align="center">
   <img src="public/favicon.png" alt="My Movie Mood Logo" width="100" height="100">
 </div>
-
+ 
 # My Movie Mood       
  
 A modern web application that recommends movies based on your emotional state, powered by TMDB API and Firebase authentication.
